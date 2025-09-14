@@ -5,4 +5,6 @@ params=" \
             --rope-img base512 \
             --rope-real \
             "
-deepspeed hydit/train_deepspeed.py ${params}  "$@"
+
+# numactl --interleave=all
+deepspeed --master_port=${MASTER_PORT} hydit/train_deepspeed.py ${params}  "$@"

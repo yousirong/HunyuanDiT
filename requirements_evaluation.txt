@@ -1,0 +1,14 @@
+# 평가 메트릭을 위한 추가 패키지들
+
+# LPIPS (Learned Perceptual Image Patch Similarity)
+lpips>=0.1.4
+
+# CLIP (Contrastive Language-Image Pre-training)
+clip-by-openai>=1.0
+
+# FID (Frechet Inception Distance)
+pytorch-fid>=0.3.0
+
+# 기타 필요한 패키지들
+scipy>=1.7.0
+scikit-image>=0.18.0

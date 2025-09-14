@@ -137,3 +137,5 @@ trt/activate.sh
 trt/deactivate.sh
 *.onnx
 ckpts/
+app/output/
+dataset

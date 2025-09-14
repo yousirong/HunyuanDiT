@@ -3,7 +3,7 @@ import torch.nn as nn
 from transformers import AutoTokenizer, T5EncoderModel, T5ForConditionalGeneration
 
 
-class MT5Embedder(nn.Module):
+class T5Embedder(nn.Module):
     available_models = ["t5-v1_1-xxl"]
 
     def __init__(
